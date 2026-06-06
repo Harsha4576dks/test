@@ -13,27 +13,33 @@ def student_grade(marks):
    while True:
         if marks >= 540:
             print("grade: A+")
+            print("congartulations! you have passed the exam")
             break
 
         elif marks >= 480:
             print("grade: A")
+            print("congartulations! you have passed the exam")
             break
 
         elif marks >= 420:
             print("grade : B+")
+            print("congartulations! you have passed the exam")
             break
 
         elif marks >= 360:
             print("grade : B")
+            print("congartulations! you have passed the exam")
             break
 
         elif marks >= 300:
             print("grade : C")
+            print("congartulations! you have passed the exam")
             break
 
         else:
             print("grade : F")
+            print("sorry! you have failed the exam")
             break
 
 student_grade("result")
-print("thank you for using our service")
+print("thank you for using the student grade calculator")

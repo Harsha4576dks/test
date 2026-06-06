@@ -33,8 +33,8 @@ def income():
               
 
          else:
-              print("inavlid input")
-              print("thankyou for using income tracker")
+              print("invalid input")
+              print("Thankyou for using income tracker")
               exit()
 
 income()
