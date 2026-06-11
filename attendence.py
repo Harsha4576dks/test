@@ -7,7 +7,7 @@ class student():
         choice1= input("enter student name:")
         self.name.append(choice1)
         print("student name added  succesfully")
-
+        
         choice2= input("enter student section:")
         if choice2 in self.section:
            self.section.append(choice2)
