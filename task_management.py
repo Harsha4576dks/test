@@ -79,8 +79,22 @@ thursday = Task(schedule, date)
 friday = Task(schedule, date)
 saturday = Task(schedule, date)
 
-c1 = Task(schedule, date)
-c1.tasks()
+schedule = []
+date = []
 
-print(schedule)
-print(date)
+c1 = Task(schedule, date)
+
+while True:
+    c1.tasks()
+
+    choice = input("Do you want to add another schedule? (yes/no): ")
+
+    if choice.lower() != "yes":
+        break
+
+print("\nAll Schedules")
+
+for i in range(len(schedule)):
+    print(f"Schedule : {schedule[i]}")
+    print(f"Date     : {date[i]}")
+    print("--------------------")
