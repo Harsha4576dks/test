@@ -15,7 +15,7 @@ class conversion(currency):
         super().__init__()
 
         if  from_currency.upper() ==  to_currency.upper():
-            print("they both are the same currencies")
+            print("They both are the same currencies")
         
         else:
             USD_converter = amount / self.rates[from_currency.upper()]
